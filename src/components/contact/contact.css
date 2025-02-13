@@ -1,0 +1,52 @@
+#contact{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    border-bottom: 1px solid #ccdbea;
+}
+#contact h2{
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+#contact h3{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+#contact p{
+    font-size: 18px;
+}
+.formContainer{
+    margin-top: 32px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input, textarea{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    color: grey;
+    border-radius: 5px;
+    resize: none;
+    
+}
+.send{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #020617;
+    padding: 12px 32px;
+    margin-top: 16px;
+    font-family: 'JetBrains Mono';
+    border-radius: 25px;
+    border: none;
+    display: inline-block;
+    align-self: flex-start;
+}
+.send:hover{
+    cursor: pointer;
+}

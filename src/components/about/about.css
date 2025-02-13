@@ -1,0 +1,50 @@
+.about{
+    padding-bottom: 64px;
+    border-bottom: 1px solid #ccdbea;
+}
+h1{
+    color: #020617;
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+}
+.about h2{
+    color: #64748b;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 16px;
+}
+.intro{
+    font-size: 20px;
+    color: #334155;
+    margin: 0;
+}
+.cv{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #020617;
+    padding: 12px 32px;
+    margin-top: 32px;
+    font-family: 'JetBrains Mono';
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+.cv:hover{
+    cursor: pointer;
+}
+.arrow{
+    font-size: 14px;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out;
+}
+.cv:hover .arrow{
+    transform: translateX(5px);
+}

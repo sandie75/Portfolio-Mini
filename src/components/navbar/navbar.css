@@ -1,0 +1,25 @@
+.name{
+    color: #020617;
+    font-size: 14px;
+    font-family: 'JetBrains Mono';
+    font-weight: bold;
+    padding-top: 2px;
+}
+.links ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 22px;
+}
+.links a{
+    color: #020617;
+    font-size: 14px;
+    font-family: 'JetBrains Mono';
+    font-weight: bold;
+}
+.navbar{
+    /*padding: 32px 16px 64px;*/
+    padding-top: 64px;
+    padding-bottom: 64px;;
+    display: flex;
+    justify-content: space-between
+}

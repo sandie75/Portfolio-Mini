@@ -1,0 +1,43 @@
+.projects{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    border-bottom: 1px solid #ccdbea;
+}
+.projects h2{
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+.projects p{
+    font-size: 18px;
+    color: #344155;
+    margin-top: 0;
+}
+.otherProjects{
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #020617;
+    padding: 12px 32px;
+    margin-top: 32px;
+    font-family: 'JetBrains Mono';
+    border-radius: 25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+.otherProjects:hover{
+    cursor: pointer;
+}
+.arrow{
+    font-size: 14px;
+    font-weight: 600;
+    transition: transform 0.2s ease-in-out;
+}
+.otherProjects:hover .arrow{
+    transform: translateX(5px);
+}

@@ -1,0 +1,15 @@
+.credits{
+    display: flex;
+    justify-content: space-between;
+    font-family: "JetBrains Mono";
+    font-size: 12px;
+    font-weight: 300;
+    color: #64748b;
+}
+.credits a{
+    margin: 32px 0;
+    color: #64748b;
+}
+.credits p{
+    margin: 32px 0;
+}

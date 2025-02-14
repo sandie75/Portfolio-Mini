@@ -8,7 +8,7 @@ const Projects = () => {
             <div className="project">
                 <div className="project-img">
                     <a href="#" target="_blank">
-                        <img src="/images/concert-2x1.png" alt="aperçu du site" width="450"/>
+                        <img src="/images/concert-2x1.png" alt="aperçu du site"/>
                     </a>
                 </div>
                 <div className="project-text">

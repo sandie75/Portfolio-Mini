@@ -13,6 +13,8 @@
     font-size: 18px;
     color: #344155;
     margin-top: 0;
+    overflow-wrap: break-word;
+    width: 450px;
 }
 .otherProjects{
     color: white;
@@ -41,3 +43,54 @@
 .otherProjects:hover .arrow{
     transform: translateX(5px);
 }
+
+.project{
+    border: 1px solid #64748b;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: white;
+    
+}
+.project-img{
+    overflow: hidden;
+    border-radius: 15px;
+}
+.project img{
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    transition: all 0.5s
+}
+.project img:hover{
+    transform: scale(1.2);
+}
+.projects ul{
+    display: flex;
+    gap: 20px;
+    
+}
+.projects ul li{
+    border: 2px solid #344155;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #344155;
+}
+.projects button{
+        color: white;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: #020617;
+        padding: 12px 32px;
+        margin-top: 32px;
+        font-family: 'JetBrains Mono';
+        border-radius: 25px;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;  
+}
+.projects button:hover{
+    cursor: pointer;
+}
+

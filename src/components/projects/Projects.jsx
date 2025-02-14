@@ -6,10 +6,29 @@ const Projects = () => {
          <p>Voici quelques projets sur lesquels j'ai travaillé récemment.</p>
          <div className="projectsItems">
             <div className="project">
-
+                <div className="project-img">
+                    <a href="#" target="_blank">
+                        <img src="/images/concert-2x1.png" alt="aperçu du site" width="450"/>
+                    </a>
+                </div>
+                <div className="project-text">
+                    <p>blablablaablablabalbalablababalbalbabalablababalalbabalalbab</p>
+                </div>
+                <div className="project-tech">
+                    <ul>
+                        <li>Html/Css</li>
+                        <li>Javascript</li>
+                        <li>Php</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+                <button className="project-see">Voir le projet</button>
             </div>
             <div className="project">
-
+            <div className="project-img"></div>
+                <div className="project-text"></div>
+                <div className="project-tech"></div>
+                <button className="project-see"></button>
             </div>
             <div className="project">
 

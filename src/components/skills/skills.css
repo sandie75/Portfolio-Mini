@@ -12,7 +12,20 @@
 }
 .skills ul{
     display: flex;
-    gap: 16px;
+    flex-wrap: wrap;
+    
     font-size: 18px;
     color: #344155;
 }
+.skills li::before{
+    content: "-";
+    margin: 0 8px;
+}
+.skills li:first-child::before{
+    content: "";
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+}
+
+/*le "margin-right:0;" supprimer l'espace à gauche du premier element de la liste! */

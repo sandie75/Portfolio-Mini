@@ -20,12 +20,12 @@
     overflow-wrap: break-word;
     width: 450px;
 }
-.otherProjects{
+button{
     color: white;
     font-size: 12px;
     font-weight: 600;
     background-color: #020617;
-    padding: 12px 32px;
+    padding: 8px 32px;
     margin-top: 32px;
     font-family: 'JetBrains Mono';
     border-radius: 25px;
@@ -40,11 +40,11 @@
     cursor: pointer;
 }
 .arrow{
-    font-size: 14px;
-    font-weight: 600;
+    width: 15px;
+    padding-top: 4px;
     transition: transform 0.2s ease-in-out;
 }
-.otherProjects:hover .arrow{
+button:hover .arrow{
     transform: translateX(5px);
 }
 
@@ -92,7 +92,7 @@
         font-size: 12px;
         font-weight: 600;
         background-color: #020617;
-        padding: 12px 32px;
+        padding: 8px 32px;
         margin-top: 32px;
         font-family: 'JetBrains Mono';
         border-radius: 25px;
@@ -103,6 +103,14 @@
 }
 .projects button:hover{
     cursor: pointer;
+}
+.project-see img{
+    width: 15px;
+    padding-top: 4px;
+    transition: transform 0.2s ease-in-out;
+}
+.project-see:hover img{
+    transform: translateX(5px);
 }
 
 /* Problème: il y a un espace supplémentaire sous l'image,, entre l'image et son contenant avec le lien. L'effet de zoom est donc raté, car l'image déborde vers le bas au survol .

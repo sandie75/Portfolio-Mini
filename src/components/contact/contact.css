@@ -57,12 +57,14 @@ input, textarea{
     font-size: 12px;
     font-weight: 600;
     background-color: #020617;
-    padding: 12px 32px;
+    padding: 8px 32px;
     margin-top: 16px;
     font-family: 'JetBrains Mono';
     border-radius: 25px;
     border: none;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     align-self: flex-start;
 }
 .send:hover{

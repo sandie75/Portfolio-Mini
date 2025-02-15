@@ -50,7 +50,12 @@ const Contact = () => {
                       <input type="text" required placeholder="Nom" name="name"/>
                       <input type="email" required placeholder="Email" name="email"/>
                       <textarea rows={8} placeholder="Message" name="message"></textarea>
-                      <button className="send">Envoyer</button>
+                      <button className="send">
+                        Envoyer
+                        <span>
+                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                        </span>
+                      </button>
                       {error && <p className="error">Une erreur est survenue. Veuillez réessayer.</p>}
                       {success && <p className="success">Votre message a bien été envoyé.</p>}
                   </form>

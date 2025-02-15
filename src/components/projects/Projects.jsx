@@ -26,7 +26,12 @@ const Projects = () => {
                         <li>SQL</li>
                     </ul>
                 </div>
-                <button className="project-see">Voir le projet</button>
+                <button className="project-see">
+                        Voir le projet 
+                        <span>
+                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                        </span>
+                </button>
             </div>
 
             {/*Projet 2 Quiz */}
@@ -48,7 +53,10 @@ const Projects = () => {
                     </ul>
                 </div>
                 <button className="project-see">
-                        Voir le projet
+                        Voir le projet 
+                        <span>
+                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                        </span>
                 </button>
             </div>    
 
@@ -70,14 +78,19 @@ const Projects = () => {
                         </ul>
                 </div>
                 <button className="project-see">
-                        Voir le projet
+                        Voir le projet 
+                        <span>
+                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                        </span>
                 </button>  
             </div>
         </div>
-         <button className="otherProjects">
-            Mes autres projets 
-            <span className="arrow">→</span>
-         </button>
+        <button className="otherProjects">
+                        Autres projets 
+                        <span>
+                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                        </span>
+        </button>
     </section>
 );
 };

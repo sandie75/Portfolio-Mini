@@ -16,7 +16,10 @@
 .textContainer .item{
     width: 50%;
 }
-#contact span,a{
+#contact span{
+    color: #344155;
+}
+#contact a{
     color: #344155;
 }
 #contact h3{

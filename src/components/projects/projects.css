@@ -9,6 +9,10 @@
     margin-top: 0;
     margin-bottom: 16px;
 }
+.projects h3{
+    color: #344155;
+    margin-bottom: 0;
+}
 .projects p{
     font-size: 18px;
     color: #344155;
@@ -45,12 +49,19 @@
 }
 
 .project{
-    border: 1px solid #64748b;
+    border: 2px solid lightgrey;
     border-radius: 15px;
     padding: 30px;
     background-color: white;
     max-width: fit-content;
+    margin-bottom: 32px;
 }
+.project a{ 
+    display: block;
+    line-height: 0;
+}
+/* Voir explication en bas*/
+
 .project-img{
     overflow: hidden;
     border-radius: 15px;
@@ -94,3 +105,16 @@
     cursor: pointer;
 }
 
+/* Problème: il y a un espace supplémentaire sous l'image,, entre l'image et son contenant avec le lien. L'effet de zoom est donc raté, car l'image déborde vers le bas au survol .
+
+Les balises <a> sont en inline par défaut, ce qui peut entraîner cet espace supplémentaire.
+Pourquoi ?
+L'image est considérée comme un élément inline-block.
+Les éléments inline ont un espacement en bas (à cause de l'alignement vertical par défaut).
+Le lien <a> hérite de cet espacement, ce qui fait dépasser la hauteur du lien sous l’image.
+=> a { display: block; }
+
+Autre détail qui contribue au même problème: 
+Les éléments inline (comme <a>) peuvent hériter d’un line-height trop grand, créant ainsi un espace sous l’image. Pourquoi ? Un line-height supérieur à 0 peut ajouter un espace même si l’image est bien bloquée.
+=> a{ line-height: 0; }
+*/

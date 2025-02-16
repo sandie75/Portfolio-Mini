@@ -49,7 +49,7 @@ button:hover .arrow{
 }
 
 .project{
-    border: 2px solid lightgrey;
+    border: 1px solid #ccdbea;
     border-radius: 15px;
     padding: 30px;
     background-color: white;

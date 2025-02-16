@@ -7,7 +7,7 @@ const Skills = () => {
             <li>Javascript</li>
             <li>React</li>
             <li>Php</li>
-            <li>SQL</li>
+            <li>MySQL</li>
             <li>Git</li>
          </ul>
         

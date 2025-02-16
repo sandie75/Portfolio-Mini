@@ -28,7 +28,7 @@ button{
     padding: 8px 32px;
     margin-top: 32px;
     font-family: 'JetBrains Mono';
-    border-radius: 25px;
+    border-radius: 10px;
     border: none;
     display: flex;
     align-items: center;
@@ -97,7 +97,7 @@ button:hover .arrow{
         padding: 8px 32px;
         margin-top: 32px;
         font-family: 'JetBrains Mono';
-        border-radius: 25px;
+        border-radius: 10px;
         border: none;
         display: flex;
         align-items: center;

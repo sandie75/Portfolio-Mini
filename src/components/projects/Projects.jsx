@@ -25,15 +25,15 @@ const Projects = () => {
 
                 <div className="project-text">
                     <h3>Salle de concert</h3>
-                    <p>blablablaablablabalbalablababalbalbabalablababalalbabalalbab</p>
+                    <p>Un site web pour une salle de concert, incluant un agenda des événements et une présentation des artistes programmés, avec un espace administrateur sécurisé par authentification pour la gestion du contenu (CRUD). Le site est également optimisé pour le SEO, garantissant une meilleure visibilité sur les moteurs de recherche.</p>
                 </div>
 
                 <div className="project-tech">
                     <ul>
-                        <li>Html/Css</li>
+                        <li>Html/CSS</li>
                         <li>Javascript</li>
-                        <li>Php</li>
-                        <li>SQL</li>
+                        <li>PHP</li>
+                        <li>MySQL</li>
                     </ul>
                 </div>
 
@@ -63,14 +63,13 @@ const Projects = () => {
 
                 <div className="project-text">
                     <h3>Quiz Game of Thrones</h3>
-                    <p>albalabalbalbalbalbalababalalbalbalbalalbabllaba</p>
+                    <p>Un quiz interactif sur les citations de Game of Thrones qui utilise les données d'une API pour tester les connaissances de l'utilisateur en dix questions.</p>
                 </div>
 
                 <div className="project-tech">
                     <ul>
-                        <li>Html/Css</li>
+                        <li>Html/CSS</li>
                         <li>React</li>
-                        <li>API</li>
                     </ul>
                 </div>
 
@@ -100,12 +99,12 @@ const Projects = () => {
 
                 <div className="project-text">
                         <h3>Mastermind</h3>
-                        <p>albalabalbalbalbalbalababalalbalbalbalalbabllaba</p>
+                        <p>Un jeu où l'utilisateur doit deviner une combinaison de couleurs en dix essais.</p>
                 </div>
 
                 <div className="project-tech">
                         <ul>
-                            <li>Html/Css</li>
+                            <li>Html/CSS</li>
                             <li>React</li>
                         </ul>
                 </div>

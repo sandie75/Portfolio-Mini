@@ -63,7 +63,7 @@ const Projects = () => {
 
                 <div className="project-text">
                     <h3>Quiz Game of Thrones</h3>
-                    <p>Un quiz interactif sur les citations de Game of Thrones qui utilise les données d'une API pour tester les connaissances de l'utilisateur en dix questions.</p>
+                    <p>Un quiz interactif sur les citations de Game of Thrones qui utilise les données d'une API pour tester les connaissances de l'utilisateur.</p>
                 </div>
 
                 <div className="project-tech">

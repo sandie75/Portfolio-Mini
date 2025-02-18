@@ -44,7 +44,7 @@ const Contact = () => {
 
                   <div className="item">
                   <h3>Localisation</h3>
-                      <span>Actuellement en logement provisoire à Montpellier, mobilité possible.</span>
+                      <span>Logement provisoire à Montpellier, mobilité possible.</span>
                   </div>
 
               </div>

@@ -21,8 +21,9 @@ ul{
   padding: 0;
 }
 .app{
-  background-color: #f8fafc;
+  background-color: #efefef;
   font-family: 'Poppins';
+  color: #151515;
 }
 .page{
   max-width: 600px;

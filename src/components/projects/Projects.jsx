@@ -26,23 +26,24 @@ const Projects = () => {
                 <div className="project-text">
                     <h3>Salle de concert</h3>
                     <p>Un site web pour une salle de concert, incluant un agenda des événements et une présentation des artistes programmés, avec un espace administrateur sécurisé par authentification pour la gestion du contenu (CRUD). Le site est également optimisé pour le SEO, garantissant une meilleure visibilité sur les moteurs de recherche.</p>
-                </div>
 
-                <div className="project-tech">
-                    <ul>
-                        <li>Html/CSS</li>
-                        <li>Javascript</li>
-                        <li>PHP</li>
-                        <li>MySQL</li>
-                    </ul>
-                </div>
+                    <div className="project-tech">
+                        <ul>
+                            <li>Html/CSS</li>
+                            <li>Javascript</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
 
-                <button className="project-see" onClick={() => window.open('https://sandieemonts.sites.3wa.io/Concerts/index.php','_blank')}>
+                    <button className="project-see" onClick={() => window.open('https://sandieemonts.sites.3wa.io/Concerts/index.php','_blank')}>
                         Voir le projet 
                         <span>
                             <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
                         </span>
-                </button>
+                    </button>
+
+                </div>
 
             </div>
 
@@ -64,21 +65,21 @@ const Projects = () => {
                 <div className="project-text">
                     <h3>Quiz Game of Thrones</h3>
                     <p>Un quiz interactif sur les citations de Game of Thrones qui utilise les données d'une API pour tester les connaissances de l'utilisateur.</p>
-                </div>
 
-                <div className="project-tech">
-                    <ul>
-                        <li>Html/CSS</li>
-                        <li>React</li>
-                    </ul>
-                </div>
+                    <div className="project-tech">
+                        <ul>
+                            <li>Html/CSS</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
 
-                <button className="project-see" onClick={() => window.open('https://sandie75.github.io/Quiz-Got/', '_blank')}>
+                    <button className="project-see" onClick={() => window.open('https://sandie75.github.io/Quiz-Got/', '_blank')}>
                         Voir le projet 
                         <span>
                             <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
                         </span>
-                </button>
+                    </button>
+                </div>
 
             </div>    
 
@@ -100,21 +101,22 @@ const Projects = () => {
                 <div className="project-text">
                         <h3>Mastermind</h3>
                         <p>Un jeu où l'utilisateur doit deviner une combinaison de couleurs en dix essais.</p>
-                </div>
 
-                <div className="project-tech">
-                        <ul>
-                            <li>Html/CSS</li>
-                            <li>React</li>
-                        </ul>
-                </div>
+                        <div className="project-tech">
+                            <ul>
+                                <li>Html/CSS</li>
+                                <li>React</li>
+                            </ul>
+                        </div>
 
-                <button className="project-see" onClick={() => window.open('https://sandie75.github.io/Mastermind/', '_blank')}>
+                        <button className="project-see" onClick={() => window.open('https://sandie75.github.io/Mastermind/', '_blank')}>
                         Voir le projet 
-                        <span>
-                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
-                        </span>
-                </button>  
+                            <span>
+                                <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                            </span>
+                        </button> 
+
+                </div>
 
             </div>
         </div>

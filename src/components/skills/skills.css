@@ -1,11 +1,11 @@
 .skills{
     padding-top: 64px;
     padding-bottom: 64px;
-    border-bottom: 1px solid #ccdbea;
+    border-bottom: 1px solid #c9c9c9;
 }
 .skills h2{
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 0;
     padding-top: 0;
     margin-bottom: 16px;
@@ -15,7 +15,7 @@
     flex-wrap: wrap;
     
     font-size: 18px;
-    color: #344155;
+    
 }
 .skills li::before{
     content: "-";

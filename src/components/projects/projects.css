@@ -1,21 +1,20 @@
 .projects{
     padding-top: 64px;
     padding-bottom: 64px;
-    border-bottom: 1px solid #ccdbea;
+    border-bottom: 1px solid #c9c9c9;
 }
 .projects h2{
     font-size: 28px;
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 0;
     margin-bottom: 16px;
 }
 .projects h3{
-    color: #344155;
-    margin-bottom: 0;
+    color: #151515;
+    margin: 0 0 5px 0;
 }
 .projects p{
     font-size: 18px;
-    color: #344155;
     margin-top: 0;
     overflow-wrap: break-word;
     width: 450px;
@@ -24,11 +23,11 @@ button{
     color: white;
     font-size: 12px;
     font-weight: 600;
-    background-color: #020617;
+    background-color: #151515;
     padding: 8px 32px;
     margin-top: 32px;
     font-family: 'JetBrains Mono';
-    border-radius: 10px;
+    border-radius: 25px;
     border: none;
     display: flex;
     align-items: center;
@@ -49,9 +48,9 @@ button:hover .arrow{
 }
 
 .project{
-    border: 1px solid #ccdbea;
-    border-radius: 15px;
-    padding: 30px;
+    
+    border-radius: 8px;
+    
     background-color: white;
     max-width: fit-content;
     margin-bottom: 32px;
@@ -61,16 +60,16 @@ button:hover .arrow{
     line-height: 0;
 }
 /* Voir explication en bas*/
-
+.project-text{
+    padding: 30px;
+}
 .project-img{
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 8px 8px 0 0;
+    
 }
 .project img{
-    border-radius: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 450px;
+    border-radius: 8px 8px 0 0; 
     width: 100%;
     transition: all 0.5s
 }
@@ -84,20 +83,20 @@ button:hover .arrow{
     
 }
 .projects ul li{
-    border: 2px solid #344155;
+    border: 2px solid #efefef;
     padding: 5px 10px;
     border-radius: 5px;
-    color: #344155;
+    color: #515050;
 }
 .projects button{
         color: white;
         font-size: 12px;
         font-weight: 600;
-        background-color: #020617;
+        background-color: #151515;
         padding: 8px 32px;
         margin-top: 32px;
         font-family: 'JetBrains Mono';
-        border-radius: 10px;
+        border-radius: 25px;
         border: none;
         display: flex;
         align-items: center;

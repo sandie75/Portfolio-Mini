@@ -1,16 +1,16 @@
 .about{
     padding-bottom: 64px;
-    border-bottom: 1px solid #ccdbea;
+    border-bottom: 1px solid #c9c9c9;
 }
 h1{
-    color: #020617;
+
     font-family: 'Poppins';
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0;
 }
 .about h2{
-    color: #64748b;
+    color: #515050;
     font-size: 28px;
     font-weight: 400;
     margin: 0;
@@ -18,18 +18,22 @@ h1{
 }
 .intro{
     font-size: 20px;
-    color: #334155;
+    color: #151515;
     margin: 0;
+}
+.about a{
+    display: inline-block;
+    width: fit-content;
 }
 .cv{
     color: white;
     font-size: 12px;
     font-weight: 600;
-    background-color: #020617;
+    background-color: #151515;
     padding: 8px 32px;
     margin-top: 32px;
     font-family: 'JetBrains Mono';
-    border-radius: 10px;
+    border-radius: 25px;
     border: none;
     display: flex;
     align-items: center;

@@ -1,5 +1,5 @@
 .name{
-    color: #515050;
+    color: #151515;
     font-size: 14px;
     font-family: 'JetBrains Mono';
     font-weight: bold;
@@ -11,10 +11,16 @@
     gap: 22px;
 }
 .links a{
-    color: #515050;
+    color: #151515;
     font-size: 14px;
     font-family: 'JetBrains Mono';
     font-weight: bold;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+.links a:hover{
+    color: #5b5a5a;
+    transform: translateY(1px);
 }
 
 .navbar{

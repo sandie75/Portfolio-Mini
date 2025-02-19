@@ -12,7 +12,7 @@ const Projects = () => {
 
                 <div className="project-img">
 
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://sandieemonts.sites.3wa.io/Concerts/index.php" target="_blank" rel="noopener noreferrer">
 
                         <picture>
                             <source srcSet="/images/concert-square.png" media="(max-width: 768px)"/>  
@@ -51,7 +51,7 @@ const Projects = () => {
             <div className="project">
                 <div className="project-img">
 
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://sandie75.github.io/Quiz-Got/" target="_blank" rel="noopener noreferrer">
 
                         <picture>
                             <source srcSet="/images/quiz-square.png" media="(max-width: 768px)"/>  
@@ -88,7 +88,7 @@ const Projects = () => {
 
                 <div className="project-img">
 
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://sandie75.github.io/Mastermind/" target="_blank" rel="noopener noreferrer">
 
                         <picture>
                             <source srcSet="/images/mastermind-square.png" media="(max-width: 768px)"/>  

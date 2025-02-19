@@ -60,7 +60,7 @@ const Contact = () => {
                       <button className="send">
                         Envoyer
                         <span>
-                            <img className="arrow" src="/icons/flecheBlanche.png" alt="icon"/>
+                            <img className="arrow" src="/icons/sendWhite.png" alt="icon"/>
                         </span>
                       </button>
 

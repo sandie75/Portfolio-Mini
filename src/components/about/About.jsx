@@ -10,7 +10,7 @@ const About = () => {
             <button className="cv">
                             Télécharger mon CV 
                             <span>
-                                <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                                <img className="arrow" src="/icons/flecheBlanche.png" alt="icon"/>
                             </span>
             </button>
         </a>

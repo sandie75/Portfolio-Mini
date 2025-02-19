@@ -39,7 +39,7 @@ const Projects = () => {
                     <button className="project-see" onClick={() => window.open('https://sandieemonts.sites.3wa.io/Concerts/index.php','_blank')}>
                         Voir le projet 
                         <span>
-                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                            <img className="arrow" src="/icons/flecheOrange.png" alt="icon"/>
                         </span>
                     </button>
 
@@ -76,7 +76,7 @@ const Projects = () => {
                     <button className="project-see" onClick={() => window.open('https://sandie75.github.io/Quiz-Got/', '_blank')}>
                         Voir le projet 
                         <span>
-                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                            <img className="arrow" src="/icons/flecheOrange.png" alt="icon"/>
                         </span>
                     </button>
                 </div>
@@ -112,7 +112,7 @@ const Projects = () => {
                         <button className="project-see" onClick={() => window.open('https://sandie75.github.io/Mastermind/', '_blank')}>
                         Voir le projet 
                             <span>
-                                <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                                <img className="arrow" src="/icons/flecheOrange.png" alt="icon"/>
                             </span>
                         </button> 
 
@@ -124,7 +124,7 @@ const Projects = () => {
         <button className="otherProjects" onClick={() => window.open('https://github.com/sandie75', '_blank')}>
                         Autres projets 
                         <span>
-                            <img className="arrow" src="/icons/chevronBlanc.png" alt="icon"/>
+                            <img className="arrow" src="/icons/flecheBlanche.png" alt="icon"/>
                         </span>
         </button>
 

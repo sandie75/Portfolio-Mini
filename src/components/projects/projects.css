@@ -12,29 +12,17 @@
 .projects h3{
     color: #151515;
     margin: 0 0 5px 0;
+    font-size: 20px;
+    font-weight: 600;
 }
 .projects p{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 0;
     overflow-wrap: break-word;
     width: 450px;
+    color: #151515;
 }
-button{
-    color: white;
-    font-size: 12px;
-    font-weight: 600;
-    background-color: #151515;
-    padding: 8px 32px;
-    margin-top: 32px;
-    font-family: 'JetBrains Mono';
-    border-radius: 25px;
-    border: none;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    
 
-}
 .otherProjects:hover{
     cursor: pointer;
 }
@@ -88,7 +76,24 @@ button:hover .arrow{
     border-radius: 5px;
     color: #515050;
 }
-.projects button{
+.projectsItems button{
+        color: #e1432b;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: white;
+        padding: 8px 32px;
+        margin-top: 32px;
+        font-family: 'JetBrains Mono';
+        border-radius: 25px;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        gap: 10px;  
+}
+.projects button:hover{
+    cursor: pointer;
+}
+.otherProjects{
         color: white;
         font-size: 12px;
         font-weight: 600;
@@ -100,10 +105,7 @@ button:hover .arrow{
         border: none;
         display: flex;
         align-items: center;
-        gap: 10px;  
-}
-.projects button:hover{
-    cursor: pointer;
+        gap: 10px;
 }
 .project-see img{
     width: 15px;

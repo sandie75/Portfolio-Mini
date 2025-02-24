@@ -43,8 +43,8 @@ const Contact = () => {
                   </div>
 
                   <div className="item">
-                  <h3>Localisation</h3>
-                      <span>Logement provisoire à Montpellier, mobilité possible.</span>
+                  <h3>Téléphone</h3>
+                      <span>0659282030</span>
                   </div>
 
               </div>

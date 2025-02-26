@@ -9,6 +9,7 @@ const Skills = () => {
             <li>PHP</li>
             <li>SQL</li>
             <li>Git</li>
+            <li>Figma</li>
          </ul>
         
     </section>
